@@ -15,10 +15,37 @@ Default ItemsAdder pack categories are inside `categories.yml` files on each `na
 For example: `contents/iasurvival/configs/categories.yml`
 {% endhint %}
 
+### Hide items in `all` category
+
+You can hide particular items from the `all` category.
+
+```yaml
+hide_items:
+- _iainternal:icon_left_grey
+- _iainternal:icon_left_blue
+- _iainternal:icon_right_grey
+- _iainternal:icon_right_blue
+- _iainternal:icon_up_grey
+- _iainternal:icon_up_blue
+```
+
+### Hide matching in `all` category
+
+You can hide all items whose ID starts with a specific string. For example, the following configuration hides every item whose ID starts with `myitems:hidden_item_`.
+
+{% hint style="warning" %}
+Requires ItemsAdder 4.0.18+
+{% endhint %}
+
+```yaml
+    hide_items:
+    - "myitems:hidden_item_*"
+```
+
 ## Creating a custom category
 
 If you want to create your own category you have to create and add it to your own `.yml` file in your [namespace](../beginners/configs-and-resourcepack.md#what-is-a-namespace).\
-<mark style="color:red;">Do not add your categories into the</mark> <mark style="color:red;"></mark><mark style="color:red;">`ia_gui.yml`</mark> <mark style="color:red;"></mark><mark style="color:red;">file!</mark>\
+<mark style="color:red;">Do not add your categories into the</mark> <mark style="color:red;">`ia_gui.yml`</mark> <mark style="color:red;">file!</mark>\
 This is an example:
 
 ```yaml
