@@ -10,7 +10,7 @@ In order to create a custom tree you have to create two blocks for each tree: le
 
 ### Follow this tutorial to create blocks
 
-{% content-ref url="block.md" %}
+{% content-ref url="../blocks/README.md" %}
 [block.md](../blocks/README.md)
 {% endcontent-ref %}
 

@@ -72,6 +72,6 @@ This method works 100% of the time on Minecraft 1.17.1+.
 
 ## Continue installation if you need
 
-{% content-ref url="../first-install.md" %}
+{% content-ref url="../../first-install.md" %}
 [first-install.md](../../../plugin-usage/first-install.md)
 {% endcontent-ref %}

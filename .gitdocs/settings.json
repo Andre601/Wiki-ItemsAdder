@@ -1,0 +1,21 @@
+{
+  "accent": "#a85bce",
+  "ai": {
+    "enabled": true
+  },
+  "headerLinks": [
+    {
+      "label": "Addons",
+      "url": "https://addon.devs.beer/"
+    },
+    {
+      "label": "Plugins",
+      "url": "https://plugins.devs.beer/"
+    },
+    {
+      "label": "Donate",
+      "url": "https://donate.devs.beer/"
+    }
+  ],
+  "icon": ".gitbook/assets/project-icon_001.png"
+}

@@ -7,7 +7,7 @@
 * add all your mobs models and configurations inside the **ModelEngine** plugin folder (read the **ModelEngine** tutorials for more info)
 * open `config.yml` of **ItemsAdder** and set this:
 
-```yaml
+``` yaml
     merge_other_plugins_resourcepacks_folders:
       - "ModelEngine/resource pack"
 ```

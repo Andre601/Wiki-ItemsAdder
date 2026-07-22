@@ -44,8 +44,8 @@ sounds:
 
 #### Jukebox song (Minecraft 1.21.1 and greater)
 
-{% content-ref url="jukebox-disc.md" %}
-[jukebox-disc.md](jukebox-disc.md)
+{% content-ref url="sounds/jukebox-disc.md" %}
+Guide
 {% endcontent-ref %}
 
 ### Old Method (ItemsAdder 4.0.10 and lower)

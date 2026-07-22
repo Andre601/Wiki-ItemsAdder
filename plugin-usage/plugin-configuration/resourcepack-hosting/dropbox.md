@@ -55,6 +55,6 @@ Yea it is, that's why you should use the self host feature instead of **DropBox*
 
 ## Continue installation if you need
 
-{% content-ref url="../first-install.md" %}
+{% content-ref url="../../first-install.md" %}
 [first-install.md](../../../plugin-usage/first-install.md)
 {% endcontent-ref %}
