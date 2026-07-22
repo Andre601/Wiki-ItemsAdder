@@ -10,9 +10,9 @@ If you are on 1.21.2 and greater (both server and clients) you can use the new a
 More info [here](../../adding-content/items/armors.md).
 {% endhint %}
 
-![](../../.gitbook/assets/armor_shader_bug_1.png)
+![](../../.gitbook/assets/armors-textures-not-working-with-shaders-mod_002.png)
 
-![](../../.gitbook/assets/144463413-21137314-66a3-41de-a834-9c6063e65e83.png)
+![](../../.gitbook/assets/armors-textures-not-working-with-shaders-mod_003.png)
 
 {% embed url="https://youtu.be/cb8OAuQE6V0" %}
 

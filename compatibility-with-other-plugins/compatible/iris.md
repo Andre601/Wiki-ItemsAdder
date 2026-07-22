@@ -33,9 +33,9 @@ Then edit the layers settings to use a custom block, in this example the custom 
 
 This will generate a similar result:
 
-![](<../../.gitbook/assets/image%20(164).png>)
+![](../../.gitbook/assets/iris_003.png)
 
-![](<../../.gitbook/assets/image%20(143).png>)
+![](../../.gitbook/assets/iris_004.png)
 
 ## Compatibility issues
 

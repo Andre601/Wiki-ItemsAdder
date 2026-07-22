@@ -5,24 +5,24 @@
 Create a new "`ItemsAdder Entity Model`".\
 You can create as many as animations files you want.
 
-<figure><img src="../../.gitbook/assets/ia-entities-new.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/animations_026.png" alt=""><figcaption></figcaption></figure>
 
 Decide if you want to create an emotes file with examples or a blank emotes file.
 
-<figure><img src="../../.gitbook/assets/ia-entities-new2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/animations_027.png" alt=""><figcaption></figcaption></figure>
 
 Decide a name for your emotes pack.
 
-<figure><img src="../../.gitbook/assets/ia-entities-new3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/animations_028.png" alt=""><figcaption></figcaption></figure>
 
 You can notice a lot of example animations on the left.
 
-![](<../../.gitbook/assets/image%20(180).png>)
+![](../../.gitbook/assets/animations_012.png)
 
 Delete all the emotes and edit/rename the ones you want. \
 They are useful only as base for your new emotes, to have an example to learn from.
 
-![](<../../.gitbook/assets/image%20(161).png>)
+![](<../../.gitbook/assets/animations_020.png>)
 
 You can animate your models normally, like you would do with normal Blockbench models.\
 You can find a lot of tutorials on YouTube.
@@ -32,7 +32,7 @@ You can find a lot of tutorials on YouTube.
 When you are finished, save your `.iaentitymodel` project file into this folder (change `my_emotes` to your namespace, this one is an example):\
 `ItemsAdder/contents/my_emotes/`
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/animations_021.png" alt=""><figcaption></figcaption></figure>
 
 Then continue following the tutorial to know how to export the emotes into ItemsAdder.
 
@@ -40,11 +40,11 @@ Then continue following the tutorial to know how to export the emotes into Items
 
 Click on the **ItemsAdder** tab and press **Export**.
 
-![](<../../.gitbook/assets/image%20(60).png>)
+![](<../../.gitbook/assets/animations_030.png>)
 
 You should get a success message.
 
-![](<../../.gitbook/assets/image%20(66).png>)
+![](<../../.gitbook/assets/advanced-method_027.png>)
 
 {% hint style="success" %}
 If you didn't add any custom model into your emote there is <mark style="color:green;">no need</mark> to use `/iazip`!\
@@ -96,16 +96,16 @@ You can add custom models to your emotes, for example: items, monsters, furnitur
 
 In order to decide that you have to set this option in the **Blockbench** extension settings.
 
-[![image](../../.gitbook/assets/emotes_advanced_1.png)](https://user-images.githubusercontent.com/27242001/244145963-c9ca9a77-bb79-4804-92e4-8708eac41517.png)
+[![image](../../.gitbook/assets/animations_022.png)](https://user-images.githubusercontent.com/27242001/244145963-c9ca9a77-bb79-4804-92e4-8708eac41517.png)
 
-<figure><img src="../../.gitbook/assets/emotes_advanced_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/animations_023.png" alt=""><figcaption></figcaption></figure>
 
 ### Importing elements into the scene
 
 You can import any `.bbmodel` into the scene and use it in your animation.\
 You can also import extruded textures to show items dynamically.
 
-<figure><img src="../../.gitbook/assets/emotes_advanced_3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/animations_024.png" alt=""><figcaption></figcaption></figure>
 
 ### Hiding unused elements in other animations of the game `.iaentitymodel` emotes file
 
@@ -118,13 +118,13 @@ You can also import extruded textures to show items dynamically.
 Now your model won't be shown for this particular animation.\
 You can show/hide it in the middle of the animation just by doing the same thing but setting scale to 1.
 
-<figure><img src="../../.gitbook/assets/emotes_advanced_4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/animations_025.png" alt=""><figcaption></figcaption></figure>
 
 ## Lock the player movement
 
 You can specify if the player can move while playing one specific animation or not.
 
-![](<../../.gitbook/assets/image%20(201).png>)
+![](<../../.gitbook/assets/animations_018.png>)
 
 ## Looping animations
 
@@ -135,28 +135,28 @@ This allows you to create complex looping animations, for example a sleep animat
 
 Create the animation, in this example a death animation.
 
-![](<../../.gitbook/assets/image%20(82).png>)
+![](../../.gitbook/assets/animations_014.png)
 
 Right click it and mark it as `Loop`.
 
-![](<../../.gitbook/assets/image%20(80).png>)
+![](<../../.gitbook/assets/animations_017.png>)
 
 ### Step 2
 
 Now place the cursor on the frame where you want the loop to start, in this case when the player is on the ground.
 
-![](<../../.gitbook/assets/image%20(191).png>)
+![](../../.gitbook/assets/animations_013.png)
 
 ### Step 3
 
 Click on the `Add Loop Start/End marker` icon to add a `start loop` marker.
 
-![](<../../.gitbook/assets/image%20(140).png>)
+![](<../../.gitbook/assets/animations_019.png>)
 
 Now place the animation cursor on the frame where you want the loop to stop and press again on the `Add Loop Start/End marker` icon.
 
-![](<../../.gitbook/assets/image%20(103).png>)
+![](<../../.gitbook/assets/animations_015.png>)
 
 The result will be like this:
 
-![](<../../.gitbook/assets/image%20(119).png>)
+![](<../../.gitbook/assets/animations_029.png>)

@@ -28,7 +28,7 @@ player_stats:
   save_type: CUSTOM_NBT
 ```
 
-<figure><img src="../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/custom-player-stats_001.png" alt=""><figcaption></figcaption></figure>
 
 ### player.dat file
 
@@ -40,4 +40,4 @@ player_stats:
   save_type: PLAYER_DAT
 ```
 
-<figure><img src="../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/custom-player-stats_002.png" alt=""><figcaption></figcaption></figure>

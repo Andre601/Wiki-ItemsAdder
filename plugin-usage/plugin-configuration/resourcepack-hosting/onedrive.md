@@ -6,15 +6,15 @@
 
 ### Step 1
 
-![](<../../../.gitbook/assets/image%20(65).png>)
+![](../../../.gitbook/assets/onedrive_006.png)
 
 ### Step 2
 
-![](<../../../.gitbook/assets/image%20(208).png>)
+![](../../../.gitbook/assets/onedrive_005.png)
 
 ### Step 3
 
-![](<../../../.gitbook/assets/image%20(116).png>)
+![](../../../.gitbook/assets/onedrive_004.png)
 
 ### Step 4
 

@@ -13,11 +13,11 @@ Make sure to read the [Usage terms](branding.md#usage-terms) before doing anythi
 
 ### Preview of the zip content
 
-![logos](<../.gitbook/assets/image%20(142).png>)
+![logos](<../.gitbook/assets/branding_002.png>)
 
-![palette](../.gitbook/assets/color_palette.png)
+![palette](../.gitbook/assets/branding_003.png)
 
-![addon-banner](../.gitbook/assets/ia_addon_banner.png)
+![addon-banner](../.gitbook/assets/branding_004.png)
 
 ## Usage terms
 

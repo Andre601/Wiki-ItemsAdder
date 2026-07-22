@@ -49,7 +49,7 @@ After you finished configuring the hosting (follow the linked tutorial carefully
 
 For example:
 
-![](<../../.gitbook/assets/image (87).png>)
+![](../../.gitbook/assets/single-resourcepack-bungeecord_002.png)
 
 {% hint style="warning" %}
 You must remove the URL part after `#`, it's not needed.\

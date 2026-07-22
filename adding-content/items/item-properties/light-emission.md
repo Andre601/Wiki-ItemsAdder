@@ -20,7 +20,7 @@ In the future I might find a clean way to implement smooth light that moves with
 {% step %}
 Create your texture.
 
-<figure><img src="../../../.gitbook/assets/image (284).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-emission_008.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -28,25 +28,25 @@ Create a new `Java Block/Item` model in **Blockbench**.
 
 Note: In this case I set `Parent Model` to `item/paper` to inherit the `display` properties (how it's shown in hand, on ground etc.).
 
-<figure><img src="../../../.gitbook/assets/image (288).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-emission_010.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Create your model. For example you can extrude the texture like I did.
 
-<figure><img src="../../../.gitbook/assets/image (287).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-emission_016.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Adjust the model in the center.
 
-<figure><img src="../../../.gitbook/assets/image (289).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-emission_014.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Select all the cubes (press `CTRL+A`), right click and set the desired light level.
 
-<figure><img src="../../../.gitbook/assets/image (290).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-emission_015.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -84,7 +84,7 @@ items:
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../../../.gitbook/assets/image (291).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-emission_018.png" alt=""><figcaption></figcaption></figure>
 
 ## Blocks
 
@@ -102,7 +102,7 @@ If you do not want to use `REAL_TRANSPARENT` you can create a block with a singl
 {% step %}
 Create your texture.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-emission_012.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -110,17 +110,17 @@ Separate the glowing layer from the base layer into two images.
 
 `contents/test/textures/block/test_light_emission.png`
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-emission_011.png" alt=""><figcaption></figcaption></figure>
 
 `contents/test/textures/block/test_light_emission2.png`
 
-<figure><img src="../../../.gitbook/assets/image (280).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-emission_007.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Create a new `Java Block/Item` model in **Blockbench**.
 
-<figure><img src="../../../.gitbook/assets/image (285).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-emission_009.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -134,7 +134,7 @@ Assign the two textures to the two different layers by drag and drop into the cu
 {% step %}
 Right click the glowing layer and set the desired light level.
 
-<figure><img src="../../../.gitbook/assets/image (282).png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../../../.gitbook/assets/light-emission_013.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -184,4 +184,4 @@ items:
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../../../.gitbook/assets/image (283).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/light-emission_017.png" alt=""><figcaption></figcaption></figure>

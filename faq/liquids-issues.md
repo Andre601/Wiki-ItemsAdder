@@ -16,7 +16,7 @@ It's working as intended to avoid lag and glitches.\
 Use multiple liquid buckets to create a larger liquid area.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/water_bug_3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/liquids-issues_007.png" alt=""><figcaption></figcaption></figure>
 
 ### Custom liquid color mixed with water and vice versa
 
@@ -33,7 +33,7 @@ Source: [https://www.spigotmc.org/threads/how-to-create-custom-biomes.512105/pag
 
 </details>
 
-![](<../.gitbook/assets/immagine (14) (1) (2) (3) (3) (4) (4) (5) (7) (8) (3).png>)
+![](../.gitbook/assets/liquids-issues_004.png)
 
 ### I cannot see liquid color at all, even by placing it in a different location
 
@@ -41,8 +41,8 @@ You have to set the biome blend to `5x5` or lower.
 
 #### Bad
 
-<figure><img src="../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/liquids-issues_005.png" alt=""><figcaption></figcaption></figure>
 
 #### Good
 
-<figure><img src="../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/liquids-issues_006.png" alt=""><figcaption></figcaption></figure>

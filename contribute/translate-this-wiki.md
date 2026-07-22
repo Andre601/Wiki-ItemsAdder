@@ -11,11 +11,11 @@ Feel free to ping **LoneDev** on the Discord or to open a support ticket in the 
 
 Then, after the branch creation, open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.
 
-![](<../.gitbook/assets/image (214).png>)
+![](<../.gitbook/assets/edit-the-english-wiki_012.png>)
 
 Untick this option!
 
-<figure><img src="../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/translate-this-wiki_004.png" alt=""><figcaption></figcaption></figure>
 
 Click here to change the branch.
 
@@ -23,15 +23,15 @@ Click here to change the branch.
 DO NOT EDIT THE `master` BRANCH!
 {% endhint %}
 
-![](<../.gitbook/assets/image (97).png>)
+![](<../.gitbook/assets/translate-this-wiki_007.png>)
 
 Select a file you want to edit and press the **pen** button
 
-![](<../.gitbook/assets/image (139).png>)
+![](<../.gitbook/assets/translate-this-wiki_006.png>)
 
 Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
 
-![](<../.gitbook/assets/image (159).png>)
+![](<../.gitbook/assets/translate-this-wiki_005.png>)
 
 {% hint style="warning" %}
 #### Important notes
@@ -49,7 +49,7 @@ Edit the file and then press <mark style="color:green;">**Commit changes**</mark
 
 ### Example of what you _<mark style="color:red;">must not</mark>_ edit
 
-![](<../.gitbook/assets/image (125).png>)
+![](<../.gitbook/assets/edit-the-english-wiki_010.png>)
 
 ### Last step
 
@@ -60,5 +60,5 @@ Feel free to ping **LoneDev** on the Discord or to open a support ticket in the 
 Would be good if you update your translation each time the main repository (the one in English) gets edited, to reflect changes.\
 You can keep track of changes in the Discord notification channel.
 
-<img src="../.gitbook/assets/image (185).png" alt="" data-size="original">
+<img src="../.gitbook/assets/edit-the-english-wiki_014.png" alt="" data-size="original">
 {% endhint %}

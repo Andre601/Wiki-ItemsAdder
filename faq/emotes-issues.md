@@ -8,7 +8,7 @@ Make sure you accepted the resourcepack and that you enabled emotes in `config.y
 
 ## Case 1
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/emotes-issues_013.png" alt=""><figcaption></figcaption></figure>
 
 ```yaml
 emotes:
@@ -21,13 +21,13 @@ If you want to support 1.21.4 and greater clients, you must use `1_21_4_plus_mod
 
 ## Case 2
 
-<div><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/emotes-issues_012.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/emotes-issues_014.png" alt=""><figcaption></figcaption></figure></div>
 
 If you're on a _1.21.3_ or older client, you can't use `1_21_4_plus_modern_method`. You must keep using `1_21_5_plus_emotes_shaders`.
 
 ## Case 3
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../.gitbook/assets/emotes-issues_009.png" alt=""><figcaption></figcaption></figure></div>
 
 If you are using `1_21_5_plus_emotes_shaders` or `legacy_shaders`, you might have a plugin or another pack that is overwriting the shaders (only _1.21.8_ and lower clients can have this issue).
 
@@ -48,7 +48,7 @@ Also check your `ItemsAdder/contents` folders for any shader that can interfere.
 Minecraft 26.1
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../.gitbook/assets/emotes-issues_010.png" alt=""><figcaption></figcaption></figure></div>
 
 Make sure to use `1_21_4_plus_modern_method: true` and regenerate your pack, because `1_21_5_to_1_21_9_shaders` and `legacy_shaders` are no longer supported on Minecraft _**26.1**_.\
 (regenerate your pack after this change).
@@ -63,11 +63,11 @@ The only way to _"fix"_ this is by disabling the shaders themself or removing th
 
 {% tabs %}
 {% tab title="With Shaders on (Bug)" %}
-![shader bug](<../.gitbook/assets/image (75).png>)
+![shader bug](../.gitbook/assets/emotes-issues_008.png)
 {% endtab %}
 
 {% tab title="With Shaders off (No Bug)" %}
-![no shader bug](<../.gitbook/assets/image (127).png>)
+![no shader bug](../.gitbook/assets/emotes-issues_011.png)
 {% endtab %}
 {% endtabs %}
 

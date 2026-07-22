@@ -8,7 +8,7 @@ You must have the [DefaultPack](../../plugin-usage/first-install.md) installed!
 
 You can change GUI icons and use ItemsAdder icons to achieve this:
 
-![](<../../.gitbook/assets/image%20(110).png>)
+![](<../../.gitbook/assets/rpgbank_002.png>)
 
 {% tabs %}
 {% tab title="config.yml" %}

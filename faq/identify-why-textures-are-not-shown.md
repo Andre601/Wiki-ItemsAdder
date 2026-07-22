@@ -42,11 +42,11 @@ A non-bloated log is better for supporting you, and finding a solution easily.
 
 Enable output log
 
-![](<../.gitbook/assets/immagine (52).png>)
+![](<../.gitbook/assets/identify-why-textures-are-not-shown_003.png>)
 
 Join the server and read the log
 
-![](<../.gitbook/assets/immagine (9).png>)
+![](<../.gitbook/assets/identify-why-textures-are-not-shown_004.png>)
 
 You can clearly see which files failed to load and why. The errors are clear in most of the cases.
 

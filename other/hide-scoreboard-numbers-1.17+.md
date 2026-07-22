@@ -8,11 +8,11 @@ icon: expand-wide
 
 {% tabs %}
 {% tab title="After" %}
-![With ItemsAdder](<../.gitbook/assets/image (115).png>)
+![With ItemsAdder](<../.gitbook/assets/hide-scoreboard-numbers-1-17_001.png>)
 {% endtab %}
 
 {% tab title="Before" %}
-![Without ItemsAdder](<../.gitbook/assets/immagine (93).png>)
+![Without ItemsAdder](<../.gitbook/assets/hide-scoreboard-numbers-1-17_002.png>)
 {% endtab %}
 {% endtabs %}
 

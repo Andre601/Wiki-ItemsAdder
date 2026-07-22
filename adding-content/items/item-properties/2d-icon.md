@@ -53,4 +53,4 @@ In this example:
 * `item/obsidian_trident` is `contents/test/textures/item/obsidian_trident.png`
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../../../.gitbook/assets/2d-icon_002.png" alt=""><figcaption></figcaption></figure></div>

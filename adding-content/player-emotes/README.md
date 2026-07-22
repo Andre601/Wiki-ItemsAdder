@@ -78,24 +78,24 @@ emotes:
 
 [Download Blockbench](https://www.blockbench.net/) (don't use the web app).
 
-![](<../../.gitbook/assets/image (131).png>)
+![](<../../.gitbook/assets/entities_004.png>)
 
 \
 [Download](https://github.com/LoneDev6/itemsadder-entity/releases) the extension file.
 
-<figure><img src="../../.gitbook/assets/ia-entities-download-js.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/player-emotes_006.png" alt=""><figcaption></figcaption></figure>
 
 Then open **Blockbench** and click on File -> Plugins.
 
-![](<../../.gitbook/assets/image (183).png>)
+![](<../../.gitbook/assets/player-emotes_005.png>)
 
 Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
 
-![](<../../.gitbook/assets/image (184).png>)
+![](<../../.gitbook/assets/player-emotes_004.png>)
 
 Press OK
 
-![](<../../.gitbook/assets/image (152).png>)
+![](<../../.gitbook/assets/player-emotes_003.png>)
 
 ## Enabling emotes
 

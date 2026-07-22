@@ -20,7 +20,7 @@ Delete the folder `ItemsAdder/storage/cache/vanilla_assets`
 
 {% embed url="https://mc-assets-downloader.lonedev.workers.dev/itemsadder-required-vanilla-assets/vanilla_assets.zip" %}
 
-<div align="left"><figure><img src="../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/failed-to-download-minecraft-assets_003.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -28,7 +28,7 @@ Delete the folder `ItemsAdder/storage/cache/vanilla_assets`
 
 Extract the `vanilla_assets` folder into `ItemsAdder/storage/`
 
-<div align="left"><figure><img src="../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/failed-to-download-minecraft-assets_002.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

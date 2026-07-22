@@ -16,20 +16,20 @@ Open your `.iaentitymodel` model file with **Blockbench**.
 
 Select the base bone of the head.
 
-![](<../../.gitbook/assets/image%20(92).png>)
+![](../../.gitbook/assets/head_004.png)
 
 Right click on the bone and select "**Bone Config**"
 
-![](<../../.gitbook/assets/image%20(181).png>)
+![](<../../.gitbook/assets/head_006.png>)
 
 Check the "**Head**" option and press "**Confirm**".\
 You can also decide max angles for X and Y rotation.
 
-![](<../../.gitbook/assets/image%20(84).png>)
+![](<../../.gitbook/assets/head_005.png>)
 
 The head bone is now marked as the head, as you can see (the smiley face is the head bone).
 
-![](<../../.gitbook/assets/image%20(79).png>)
+![](<../../.gitbook/assets/head_007.png>)
 
 ### Eyes height
 

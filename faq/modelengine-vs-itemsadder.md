@@ -128,7 +128,7 @@ MythicCraft [announcement](https://web.archive.org/web/20231020161618/https://my
 There is some chat going on on the MythicCraft Discord server about how rx (packets sent to the client) are extremely lower compared to MEG 3. I also got contacted by some users about this fact and this caught my curiosity.\
 However these users statements are misleading.
 
-<div><figure><img src="../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/modelengine-vs-itemsadder_005.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/modelengine-vs-itemsadder_004.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/modelengine-vs-itemsadder_003.png" alt=""><figcaption></figcaption></figure></div>
 
 I decided to make some analysis using the client F3 screen data and I made a custom Spigot [plugin](https://github.com/LoneDev6/IAMEGBenchmark) for the occasion.\
 The rx values showcased by these users are not correct because of how the client calculates this value.\

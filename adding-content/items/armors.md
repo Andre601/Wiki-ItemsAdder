@@ -20,7 +20,7 @@ The `equipment` is a property which contains the information how to show the arm
 
 Create the layers files inside the folder: `contents/my_armor_tutorial/textures/armor/my_armor_1` .
 
-<figure><img src="../../.gitbook/assets/armor_textures_preview.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/armors_005.png" alt=""><figcaption></figcaption></figure>
 
 #### Item configuration
 
@@ -50,9 +50,9 @@ This loads our previously created equipment settings.
 Create the item texture and put it inside the folder:\
 `contents/my_armor_tutorial/textures/item`.
 
-<figure><img src="../../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/armors_009.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (211).png>)
+![](<../../.gitbook/assets/armors_006.png>)
 
 #### Extra: Custom 3D helmet
 
@@ -75,7 +75,7 @@ Currently only helmets support 3D models due to a Minecraft limitation I cannot 
 Do not put any `id` in the `equipment`, otherwise the previous layer texture would be used instead of the custom `model_path`.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/armors_007.png" alt=""><figcaption></figcaption></figure>
 
 **Full configuration from the previous example**
 
@@ -215,7 +215,7 @@ You must decide a color! Even if the armor won't be colored. The color is like a
 
 Now I create the two PNG files inside the `contents/my_items/textures/armor/my_armor/` folder.
 
-<figure><img src="../../.gitbook/assets/armor_textures_preview.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/armors_005.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **HD armor textures**
@@ -273,22 +273,22 @@ In this example I created also a new folder called `my_armor` to better organize
 
 `contents/my_items/textures/item/my_armor/chestplate.png`
 
-![](../../.gitbook/assets/chestplate_item_red.png)
+![](../../.gitbook/assets/armors_008.png)
 
-![](<../../.gitbook/assets/image (211).png>)
+![](<../../.gitbook/assets/armors_006.png>)
 
 **Animated textures**
 
 You can also create animated armors!
 
-![](../../.gitbook/assets/ezgif-7-3b3a255fe802.gif)
+![](../../.gitbook/assets/armors_002.webp)
 
 To create an animated armor you have to create an image with all the animation frames.\
 Each frame must be under the previous. This is an example this is a 3 frames animation:
 
-![layer\_1](../../.gitbook/assets/layer_1.png)
+![layer\_1](../../.gitbook/assets/armors_010.png)
 
-![layer\_2](../../.gitbook/assets/layer_2.png)
+![layer\_2](../../.gitbook/assets/armors_011.png)
 
 Now let's edit the rendering properties to support the animation.
 
@@ -501,9 +501,9 @@ The `color` property is important, it's the color that the armor will have ingam
 
 Nothing more to do. You just created a simple armor without drawing any texture!
 
-<figure><img src="../../.gitbook/assets/armor_items_preview_tutorial.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/armors_004.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/armor_items_preview_tutorial_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/armors_003.png" alt=""><figcaption></figcaption></figure>
 
 #### Full configuration from the previous example
 

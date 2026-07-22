@@ -12,11 +12,11 @@
 * **Drag and drop** **generated.zip** onto **DropBox** or copy paste the file to it from your server host.
 * Press **Share**.
 
-![](<../../../.gitbook/assets/immagine%20(99).png>)
+![](<../../../.gitbook/assets/dropbox_003.png>)
 
 * Press **Create**.
 
-![](<../../../.gitbook/assets/immagine%20(41).png>)
+![](<../../../.gitbook/assets/dropbox_002.png>)
 
 * Press **Copy link** (for example you will get `https://www.dropbox.com/blablabla?dl=1`)
 * Open `config.yml` of **ItemsAdder**.

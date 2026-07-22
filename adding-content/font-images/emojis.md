@@ -53,23 +53,23 @@ I cannot fix that issue, it's a **Minecraft** limitation.
 
 ## In-game view
 
-![](<../../.gitbook/assets/immagine (116).png>)
+![](<../../.gitbook/assets/emojis_010.png>)
 
 ### Using the /e useful suggestions
 
 Write `/e` in chat, press **SPACE** and press **TAB** to start autocompleting.
 
-![](<../../.gitbook/assets/immagine (49).png>)
+![](<../../.gitbook/assets/emojis_006.png>)
 
-![](<../../.gitbook/assets/immagine (46).png>)
+![](<../../.gitbook/assets/emojis_011.png>)
 
-![](<../../.gitbook/assets/immagine (68).png>)
+![](<../../.gitbook/assets/emojis_012.png>)
 
 ### Using the tab autocomplete in chat
 
 Write `:` in chat and press **TAB** to start autocompleting.
 
-<figure><img src="../../.gitbook/assets/emoji_autocomplete_chat.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/emojis_005.png" alt=""><figcaption></figcaption></figure>
 
 ### Download examples:
 
@@ -112,10 +112,10 @@ font_images:
 {% hint style="info" %}
 Note: the `\n` part is important in order to match the big emoji image height, otherwise the tooltip will be too short.
 
-<img src="../../.gitbook/assets/image (274).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/emojis_009.png" alt="" data-size="original">
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (272).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/emojis_008.png" alt=""><figcaption></figcaption></figure>
 
 ### Adding a title
 
@@ -123,4 +123,4 @@ You can add a title, just write your text and add a `\n` character to start a ne
 
 `override_text: "Emoji preview:\n:test_hover_new_big:\n\n\n\n\n\n"`
 
-<figure><img src="../../.gitbook/assets/image (273).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/emojis_007.png" alt=""><figcaption></figcaption></figure>

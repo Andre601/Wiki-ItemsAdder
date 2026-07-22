@@ -10,7 +10,7 @@ The official cosmetics solution for ItemsAdder is here instead: [CosmeticsCore](
 
 ## [Download Here](https://www.spigotmc.org/resources/hmccosmetics.100107/)
 
-![](../../.gitbook/assets/HMCCOSMETICS-1.png)
+![](../../.gitbook/assets/hmccosmetics_002.png)
 
 ### How to Install
 

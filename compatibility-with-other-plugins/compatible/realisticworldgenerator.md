@@ -72,7 +72,7 @@ one_biome:
 
 This is a world with a custom surface
 
-![](<../../.gitbook/assets/image%20(192).png>)
+![](../../.gitbook/assets/realisticworldgenerator_002.png)
 
 
 

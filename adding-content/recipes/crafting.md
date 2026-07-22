@@ -11,7 +11,7 @@ This section can be added in all and any of your `.yml` files for better organiz
 
 ## 3x3 recipe
 
-![](<../../.gitbook/assets/immagine%20(13).png>)
+![](<../../.gitbook/assets/crafting_005.png>)
 
 ```yaml
 info:
@@ -37,9 +37,9 @@ In this example I created a `crafting_table` recipe called `deadmau5_hat`.
 
 ## 2x2 recipe
 
-![](<../../.gitbook/assets/immagine%20(39).png>)
+![](<../../.gitbook/assets/crafting_006.png>)
 
-<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/crafting_004.png" alt=""><figcaption></figcaption></figure>
 
 ### Method 1
 
@@ -128,7 +128,7 @@ turquoise_sword:
 
 For example this is the `peeled_potato` recipe. This is a special recipe which uses a knife as ingredient of the crafting (and a potato) and decrements its durability when player crafts one peeled potato without making it disappear.
 
-![](<../../.gitbook/assets/image%20(134).png>)
+![](<../../.gitbook/assets/crafting_003.png>)
 
 As you can see you can also play a sound using `play_sound`.
 
@@ -146,9 +146,9 @@ shapeless_emerald_example:
     amount: 1
 ```
 
-<figure><img src="../../.gitbook/assets/emerald_shapeless_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/crafting_002.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/emerald_shapeless_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/crafting_001.png" alt=""><figcaption></figcaption></figure>
 
 ## Potion type in ingredient
 

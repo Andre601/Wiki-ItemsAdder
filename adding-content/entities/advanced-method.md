@@ -8,36 +8,36 @@ icon: file-plus
 
 Create a new ItemsAdder entity model.
 
-<figure><img src="../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/advanced-method_015.png" alt=""><figcaption></figcaption></figure>
 
 Set project type to `Custom Entity` and decide a `namespace` + `id`.
 
-<figure><img src="../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/advanced-method_025.png" alt=""><figcaption></figcaption></figure>
 
 Immediately save the project into the **ItemsAdder** `contents` folder, under the **namespace** folder (in this example `mymobs`).
 
-<figure><img src="../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/advanced-method_020.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/advanced-method_021.png" alt=""><figcaption></figcaption></figure>
 
 Start modelling!
 
-<figure><img src="../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/advanced-method_014.png" alt=""><figcaption></figcaption></figure>
 
 Create some animations.\
 You could follow some tutorials and learn to animate in Blockbench, there are a [lot of tutorials on Youtube](https://www.youtube.com/results?search_query=blockbench+animation+tutorial).
 
-<figure><img src="../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../../.gitbook/assets/advanced-method_012.png" alt=""><figcaption></figcaption></figure></div>
 
 Before exporting make sure that the settings are correct.
 
-<figure><img src="../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/advanced-method_017.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/advanced-method_022.png" alt=""><figcaption></figcaption></figure>
 
 Export the model.
 
-<figure><img src="../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/advanced-method_026.png" alt=""><figcaption></figcaption></figure>
 
 ## Converting an existing model
 
@@ -47,9 +47,9 @@ Remember to make a <mark style="color:red;">**backup**</mark> of your `.bbmodel`
 
 Open your `.bbmodel` project with Blockbench, then click on File -> Convert Project
 
-![](<../../.gitbook/assets/image%20(215).png>)
+![](<../../.gitbook/assets/advanced-method_013.png>)
 
-![](<../../.gitbook/assets/image%20(58).png>)
+![](<../../.gitbook/assets/advanced-method_016.png>)
 
 Select **`ItemsAdder Entity Model`** in the **Format** setting, then press **Confirm**.
 
@@ -57,7 +57,7 @@ Now save the new converted model file in a new folder where you will put only th
 
 You will have something like that:
 
-![](<../../.gitbook/assets/image%20(182).png>)
+![](<../../.gitbook/assets/advanced-method_024.png>)
 
 ### Saving the project
 
@@ -70,12 +70,12 @@ Save the project file `.iaentitymodel` into your ItemsAdder namespace folder, in
 Now you can configure your model based on your preferences. The ItemsAdder extension automatically decides some settings for you but you might need to change them.\
 Click on the **ItemsAdder** tab and press **Settings**.
 
-![](<../../.gitbook/assets/image%20(220).png>)
+![](<../../.gitbook/assets/advanced-method_018.png>)
 
 Here you have to decide a namespace for your custom entities.\
 The default one is `custom`, but you should decide your own, for example `my_entities`, `hell_mobs`, `npcs`...
 
-![](<../../.gitbook/assets/image%20(69).png>)
+![](<../../.gitbook/assets/advanced-method_028.png>)
 
 The other thing you might need to change is the "**Model Scaling Mode**":
 
@@ -84,17 +84,17 @@ The other thing you might need to change is the "**Model Scaling Mode**":
 
 Change "**Max Model Size**" only if you have animated the size of some bones.
 
-![](<../../.gitbook/assets/image%20(170).png>)
+![](<../../.gitbook/assets/advanced-method_023.png>)
 
 ### Export the model
 
 Click on the **ItemsAdder** tab and press **Export**.
 
-![](<../../.gitbook/assets/image%20(179).png>)
+![](<../../.gitbook/assets/advanced-method_019.png>)
 
 You should get a success message.
 
-![](<../../.gitbook/assets/image%20(66).png>)
+![](<../../.gitbook/assets/advanced-method_027.png>)
 
 ### Creating the ingame entity configuration
 

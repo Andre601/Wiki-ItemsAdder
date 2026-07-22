@@ -6,7 +6,7 @@
 
 Emotes with multiple joints animations look <mark style="color:red;">**awful**</mark>, they ruin the Minecraft feel and remind of the cringe YouTube Minecraft animations like this:
 
-<figure><img src="../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../.gitbook/assets/emotes-with-more-joins_002.png" alt=""><figcaption></figcaption></figure></div>
 
 {% embed url="https://www.youtube.com/watch?v=_zpodmZW65E" %}
 

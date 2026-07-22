@@ -4,4 +4,4 @@
 
 Get name of the block you're looking at in real-time.
 
-<figure><img src="../../.gitbook/assets/wailat.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/wailat_001.png" alt=""><figcaption></figcaption></figure>

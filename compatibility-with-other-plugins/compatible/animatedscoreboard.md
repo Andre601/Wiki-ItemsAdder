@@ -14,7 +14,7 @@ You can use [font\_images ](../../adding-content/font-images/font-images.md)(emo
 
 `%img_smile%` will show like that:
 
-![](../../.gitbook/assets/animatedscoreboard_1.png)
+![](../../.gitbook/assets/animatedscoreboard_001.png)
 
 ## Hide the scoreboard background
 

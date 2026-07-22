@@ -14,27 +14,27 @@ Open your `.iaentitymodel` model file with **Blockbench**.
 
 Select the base bone of the entity hands.
 
-![](<../../.gitbook/assets/image%20(144).png>)
+![](../../.gitbook/assets/hands-equipment_006.png)
 
 Create a new group which will be a child of the hand bone.
 
-![](<../../.gitbook/assets/image%20(64).png>)
+![](<../../.gitbook/assets/hands-equipment_010.png>)
 
 Right click on the bone and select "**Bone Config**", in this case `left_hand_slot`
 
-![](<../../.gitbook/assets/image%20(171).png>)
+![](<../../.gitbook/assets/hands-equipment_008.png>)
 
 Check the "**Left hand pivot**" option and press "**Confirm**".
 
-![](<../../.gitbook/assets/image%20(100).png>)
+![](<../../.gitbook/assets/hands-equipment_009.png>)
 
 The hand pivot bone has a new icon now, as you can see.
 
-![](<../../.gitbook/assets/image%20(98).png>)
+![](<../../.gitbook/assets/hands-equipment_011.png>)
 
-![](<../../.gitbook/assets/image%20(62).png>)
+![](<../../.gitbook/assets/hands-equipment_007.png>)
 
-![](<../../.gitbook/assets/image%20(147).png>)
+![](../../.gitbook/assets/hands-equipment_005.png)
 
 Follow the same steps to specify the right hand, then you have to export the model as usual.
 

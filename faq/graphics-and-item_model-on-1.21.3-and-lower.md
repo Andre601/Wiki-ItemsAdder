@@ -14,4 +14,4 @@ This error is thrown when you try to join on a server using a client that doesn'
 
 Consider limiting client versions to 1.21.4+ or stop using the new `graphics` or `item_model` properties.
 
-<figure><img src="../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/graphics-and-item-model-on-1-21-3-and-lower_001.png" alt=""><figcaption></figcaption></figure>

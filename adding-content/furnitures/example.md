@@ -119,11 +119,11 @@ items:
 
 Now open **BlockBench** and create a _"Java Block/Item"_.
 
-![](<../../.gitbook/assets/image (91).png>)
+![](<../../.gitbook/assets/example_017.png>)
 
 Now create your model, in this example I'm modelling an ugly minimal modern lamp.
 
-![](<../../.gitbook/assets/image (76).png>)
+![](<../../.gitbook/assets/example_014.png>)
 
 {% hint style="warning" %}
 Important: make sure the north is opposite of where you want the model to face.
@@ -133,9 +133,9 @@ Or add the property to the YML configuration `opposite_direction: true`
 
 Edit how the model is shown on player hand:
 
-![](<../../.gitbook/assets/image (221).png>)
+![](../../.gitbook/assets/example_011.png)
 
-![](<../../.gitbook/assets/image (224).png>)
+![](<../../.gitbook/assets/example_013.png>)
 
 ### Configure the in-game view
 
@@ -143,18 +143,18 @@ Edit how the model is shown on player hand:
 
 You have to select the **head icon** and then **small armorstand:**
 
-![](<../../.gitbook/assets/image (204).png>)
+![](<../../.gitbook/assets/example_016.png>)
 
 Then you have to shift your model down until it matches the armorstand base:
 
-![](<../../.gitbook/assets/image (126).png>)
+![](<../../.gitbook/assets/example_015.png>)
 
 #### Using `item_display`
 
 Select _Frame_ and _Invisible Top_.\
 Adjust the model Z _Translation_ (the blue arrow) until it matches the bottom of the white block perfectly.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/example_012.png" alt=""><figcaption></figcaption></figure>
 
 #### Using `item_frame`
 
@@ -172,6 +172,6 @@ Now run `/iazip` (and follow the [hosting tutorial](../../plugin-usage/plugin-co
 
 To obtain the item use this command: `/iaget myitems:lamp`.
 
-![](<../../.gitbook/assets/image (177).png>)
+![](../../.gitbook/assets/example_001.png)
 
-![](<../../.gitbook/assets/image (153).png>)
+![](../../.gitbook/assets/example_002.png)

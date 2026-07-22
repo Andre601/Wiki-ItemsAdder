@@ -61,47 +61,47 @@ entities:
 
 Create a new `ItemsAdder Entity Model`.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_010.png" alt=""><figcaption></figcaption></figure>
 
 In this example I called it `ceiling_fan`.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_017.png" alt=""><figcaption></figcaption></figure>
 
 Create your model.
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_009.png" alt=""><figcaption></figcaption></figure>
 
 Switch to the animation panel.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_012.png" alt=""><figcaption></figcaption></figure>
 
 Create a new `idle` animation.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_016.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_015.png" alt=""><figcaption></figcaption></figure>
 
 Animate the entity as you wish.
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_013.png" alt=""><figcaption></figcaption></figure>
 
 Open the entity settings and set the correct namespace. In my example I use `my_furniture`.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_014.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_020.png" alt=""><figcaption></figcaption></figure>
 
 Save the project as `ceiling_fan.iaentity` (for example) inside your namespace folder root.\
 You will be able to edit it anytime you want in the future.
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_011.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_018.png" alt=""><figcaption></figcaption></figure>
 
 Export the model. This is the model file that will be loaded by ItemsAdder.
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_019.png" alt=""><figcaption></figcaption></figure>
 
 Get the item ingame using `/iaget my_furniture:ceiling_fan`.
 
-<figure><img src="../../.gitbook/assets/ezgif-4f55fae1f8968a.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/furniture-complex_002.webp" alt=""><figcaption></figcaption></figure>

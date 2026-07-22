@@ -53,11 +53,11 @@ icon: user-alien
 
 [Download Blockbench](https://www.blockbench.net/) (don't use the web app).
 
-![](<../../.gitbook/assets/image%20(131).png>)
+![](<../../.gitbook/assets/entities_004.png>)
 
 Download the [official extension](https://github.com/LoneDev6/itemsadder-entity/releases).
 
-<figure><img src="../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/entities_003.png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://youtu.be/cQpIqExVpR0" %}
 Advanced animation features

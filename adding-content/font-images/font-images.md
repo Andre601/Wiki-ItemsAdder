@@ -29,7 +29,7 @@ font_images:
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/font-images_005.png" alt=""><figcaption></figcaption></figure>
 
 Access it ingame using `:image_1:` placeholder. If you have **PlaceholderAPI** you can access it using `%img_image_1%` in various places and other plugins.
 
@@ -237,7 +237,7 @@ Requires ItemsAdder 4.0.12 and Minecraft client 1.21.4 or greater
 
 Custom shadow color
 
-<figure><img src="../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/font-images_003.png" alt=""><figcaption></figcaption></figure>
 
 ```yaml
   smile:
@@ -255,7 +255,7 @@ Custom shadow color
 
 Remove shadow completely
 
-<figure><img src="../../.gitbook/assets/image (265).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/font-images_004.png" alt=""><figcaption></figcaption></figure>
 
 ```yaml
   smile:

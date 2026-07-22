@@ -2,7 +2,7 @@
 
 ## Leather layers keep getting overwritten by ItemsAdder
 
-![](<../../.gitbook/assets/image%20(196).png>)
+![](<../../.gitbook/assets/leather-armor-texture-overwritten_002.png>)
 
 ItemsAdder automatically overwrites leather layers textures in order to create custom armors.\
 Custom armors are created using colored leather, but the default Minecraft leather armor texture doesn't look like a texture made of minerals.

@@ -182,7 +182,7 @@ Very useful for **rare items**.
 Available on ItemsAdder 4.0.9 or greater.
 {% endhint %}
 
-![](<../../../.gitbook/assets/immagine (16).png>)
+![](<../../../.gitbook/assets/basic_003.png>)
 
 ```yaml
 items:
@@ -204,7 +204,7 @@ items:
 You can make a drop show its name.\
 Very useful for **rare items**.
 
-![](<../../../.gitbook/assets/immagine (118).png>)
+![](<../../../.gitbook/assets/basic_002.png>)
 
 ```yaml
   glowing_item:

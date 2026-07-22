@@ -34,4 +34,4 @@ This forces **ModelEngine** to load its resources during the early stages of ser
 
 The root cause lies in plugin load order: ItemsAdder attempts to access ModelEngine’s model files before ModelEngine has finished loading its resources, so it cannot access them.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../../.gitbook/assets/modelengine_002.png" alt=""><figcaption></figcaption></figure></div>

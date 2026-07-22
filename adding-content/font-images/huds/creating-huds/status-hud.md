@@ -65,10 +65,10 @@ font_images:
 
 ## Creating the textures
 
-![](<../../../../.gitbook/assets/image%20(160).png>)
+![](<../../../../.gitbook/assets/status-hud_002.png>)
 
 As you can see I had created 3 textures, one for the **half** state, one for the **negative** state and one for the **positive** state.
 
 ## Final result
 
-![](<../../../../.gitbook/assets/image%20(118).png>)
+![](<../../../../.gitbook/assets/status-hud_001.png>)

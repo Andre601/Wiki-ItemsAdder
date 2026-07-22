@@ -10,7 +10,7 @@ With ItemsAdder you can generate decorations in the world caves to make your ser
 
 For example you can make new mushrooms, new little plants, rocks and decorations.
 
-![](<../../.gitbook/assets/image%20(81).png>)
+![](../../.gitbook/assets/cave-decorators_002.png)
 
 ## Creating a Cave Populator
 

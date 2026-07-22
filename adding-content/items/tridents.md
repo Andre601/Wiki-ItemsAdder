@@ -26,17 +26,17 @@ items:
 
 Create a json file in `contents\tridents\models\item\obsidian_trident.json`\
 Or create a model inside of blockbench like usual:
-<figure><img src="../../.gitbook/assets/trident_create_showcase.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tridents_005.png" alt=""><figcaption></figcaption></figure>
 
 #### Set the item held locations
 
-<figure><img src="../../.gitbook/assets/trident_display_showcase.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tridents_004.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/trident_display_firstperson_showcase.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tridents_002.png" alt=""><figcaption></figcaption></figure>
 
 #### Set the hit model location
 
-<figure><img src="../../.gitbook/assets/trident_display_hitlocation_showcase.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tridents_003.png" alt=""><figcaption></figcaption></figure>
 
 Here is the complete display:
 

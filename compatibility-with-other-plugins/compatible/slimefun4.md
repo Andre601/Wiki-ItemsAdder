@@ -17,4 +17,4 @@ Note: this is not the official resourcepack and I'm not its author. Please don't
 * Merge the Slimefun resourcepack with ItemsAdder resourcepack ([read here](../../adding-content/merge-resourcepacks.md))
 * Done
 
-![](../../.gitbook/assets/13338410.png)
+![](../../.gitbook/assets/slimefun4_002.png)

@@ -74,6 +74,6 @@ Then declare the writable book and specify which properties to copy from the wri
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../../.gitbook/assets/image (276).png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../../.gitbook/assets/writable-book_004.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/image (277).png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../../.gitbook/assets/writable-book_003.png" alt=""><figcaption></figcaption></figure></div>

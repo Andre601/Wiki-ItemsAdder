@@ -25,9 +25,9 @@ You just have to use command `/iazip` and you'll see changes applied in-game alm
 
 For example on **Pterodactyl**:
 
-![](<../../../.gitbook/assets/immagine (51).png>)
+![](<../../../.gitbook/assets/self-hosting_015.png>)
 
-![](<../../../.gitbook/assets/immagine (15).png>)
+![](<../../../.gitbook/assets/self-hosting_009.png>)
 
 * After you obtained a **new port** you can open `config.yml` and set it like this:
 
@@ -85,9 +85,9 @@ This guide might make your traffic lower due to how Cloudflare caches requests a
 
 ### Create a new `DNS record`
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/self-hosting_016.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/self-hosting_013.png" alt=""><figcaption></figcaption></figure>
 
 * type: `A`
 * name: `pack` (for example)
@@ -95,21 +95,21 @@ This guide might make your traffic lower due to how Cloudflare caches requests a
 * Proxy status: `Proxied`
 * Click **Save**
 
-<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<div><figure><img src="../../../.gitbook/assets/self-hosting_010.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Create a new `Origin rule`
 
-<figure><img src="../../../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/self-hosting_008.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (244).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/self-hosting_014.png" alt=""><figcaption></figcaption></figure>
 
 Select "Change Port" and "Create a Rule".
 
-<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/self-hosting_012.png" alt=""><figcaption></figcaption></figure>
 
 Select "Custom filer expression" and complete as shown in the screenshot changing the values based on your setup.
 
-<figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/self-hosting_011.png" alt=""><figcaption></figcaption></figure>
 
 ### Configure ItemsAdder
 

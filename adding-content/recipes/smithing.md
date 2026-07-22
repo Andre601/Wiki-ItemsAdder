@@ -4,7 +4,7 @@ icon: gavel
 
 # Smithing
 
-<figure><img src="../../.gitbook/assets/image (275).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/smithing_001.png" alt=""><figcaption></figcaption></figure>
 
 ```yaml
 info:

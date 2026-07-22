@@ -52,7 +52,7 @@ To do that you have to put the `.png` textures file inside the correct folder.
 In this case your **namespace** is `myitems` so you have to put them in this folder:\
 `contents/myitems/textures/block/`
 
-<figure><img src="../../.gitbook/assets/red_block_textures_preview.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/my-first-block_006.png" alt=""><figcaption></figcaption></figure>
 
 ### Applying the textures files to your item
 
@@ -138,11 +138,11 @@ items:
 
 Run `/iaget red_block` to get the item.
 
-![](<../../.gitbook/assets/immagine (48).png>)
+![](<../../.gitbook/assets/my-first-block_005.png>)
 
-![](<../../.gitbook/assets/immagine (87).png>)
+![](<../../.gitbook/assets/my-first-block_003.png>)
 
-![](<../../.gitbook/assets/immagine (12).png>)
+![](<../../.gitbook/assets/my-first-block_004.png>)
 
 ## Block loot
 
@@ -216,7 +216,7 @@ To do that you have to put the `.png` textures file inside the correct folder.
 In this case your **namespace** is `myitems` so you have to put them in this folder:\
 `contents/myitems/textures/block/`
 
-<figure><img src="../../.gitbook/assets/red_block_textures_preview.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/my-first-block_006.png" alt=""><figcaption></figcaption></figure>
 
 ### Using different texture for each face
 
@@ -277,11 +277,11 @@ items:
 
 Run `/iaget red_block` to get the item.
 
-![](<../../.gitbook/assets/immagine (48).png>)
+![](<../../.gitbook/assets/my-first-block_005.png>)
 
-![](<../../.gitbook/assets/immagine (87).png>)
+![](<../../.gitbook/assets/my-first-block_003.png>)
 
-![](<../../.gitbook/assets/immagine (12).png>)
+![](<../../.gitbook/assets/my-first-block_004.png>)
 
 ## Download the complete example
 
