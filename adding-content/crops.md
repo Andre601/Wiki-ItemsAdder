@@ -536,6 +536,12 @@ crops:
       items_id_prefix: blue_crop_stage_
 ```
 
+# Example pack
+
+{% content-ref url="https://www.spigotmc.org/resources/itemsadder-crops.135776/" %}
+Guide
+{% endcontent-ref %}
+
 ## Simple method
 
 {% hint style="info" %}
