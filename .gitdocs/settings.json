@@ -17,5 +17,6 @@
       "url": "https://donate.devs.beer/"
     }
   ],
-  "icon": ".gitbook/assets/project-icon_001.png"
+  "icon": ".gitbook/assets/project-icon_001.png",
+  "title": "ItemsAdder"
 }

@@ -1,4 +1,4 @@
-# 🔱 Tridents
+# Tridents
 
 {% hint style="warning" %}
 Available since ItemsAdder 4.0.11.
