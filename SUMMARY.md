@@ -216,6 +216,7 @@
   * [Liquids](adding-content/blocks/liquids.md)
   * [Stackable](adding-content/blocks/stackable.md)
   * [Storage](adding-content/blocks/storage.md)
+  * [Entity Blocks](adding-content/blocks/entity-blocks.md)
 * [Furnitures](adding-content/furnitures/README.md)
   * [Model](adding-content/furnitures/model.md)
   * [Size](adding-content/furnitures/furniture-size.md)
