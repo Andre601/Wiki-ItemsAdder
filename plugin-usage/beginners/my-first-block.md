@@ -5,6 +5,8 @@ icon: cube
 
 # My First Block
 
+The main tutorial uses the modern `graphics` configuration for Minecraft 1.21.4+ clients. The expandable section below preserves the legacy method for ItemsAdder 4.0.17 and older.
+
 <details>
 
 <summary>Tutorial for ItemsAdder 4.0.17 and older</summary>
@@ -52,7 +54,7 @@ To do that you have to put the `.png` textures file inside the correct folder.
 In this case your **namespace** is `myitems` so you have to put them in this folder:\
 `contents/myitems/textures/block/`
 
-<figure><img src="../../.gitbook/assets/my-first-block_006.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/my-first-block_006.png" alt="Six red block texture files named for the down, east, north, south, up and west faces"><figcaption>One texture file for each face of the block.</figcaption></figure>
 
 ### Applying the textures files to your item
 
@@ -136,13 +138,13 @@ items:
 
 ## Getting the block ingame
 
-Run `/iaget red_block` to get the item.
+Run `/iaget myitems:red_block` to get the item.
 
-![](<../../.gitbook/assets/my-first-block_005.png>)
+![Player holding the custom red block in Minecraft](<../../.gitbook/assets/my-first-block_005.png>)
 
-![](<../../.gitbook/assets/my-first-block_003.png>)
+![Red Block item and tooltip in the inventory](<../../.gitbook/assets/my-first-block_003.png>)
 
-![](<../../.gitbook/assets/my-first-block_004.png>)
+![Custom red block placed in the world](<../../.gitbook/assets/my-first-block_004.png>)
 
 ## Block loot
 
@@ -201,7 +203,9 @@ info:
 items:
   red_block:
     name: Red Block
-    permission: red_block
+    permission_suffix: red_block
+    graphics:
+      texture: block/red_block.png
 ```
 {% endcode %}
 
@@ -216,7 +220,7 @@ To do that you have to put the `.png` textures file inside the correct folder.
 In this case your **namespace** is `myitems` so you have to put them in this folder:\
 `contents/myitems/textures/block/`
 
-<figure><img src="../../.gitbook/assets/my-first-block_006.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/my-first-block_006.png" alt="Six red block texture files named for the down, east, north, south, up and west faces"><figcaption>One texture file for each face of the block.</figcaption></figure>
 
 ### Using different texture for each face
 
@@ -230,7 +234,7 @@ info:
 items:
   red_block:
     name: Red Block
-    permission: red_block
+    permission_suffix: red_block
     graphics:
       textures:
         down: block/red_block_down.png
@@ -249,7 +253,7 @@ info:
 items:
   red_block:
     name: Red Block
-    permission: red_block
+    permission_suffix: red_block
     graphics:
       texture: block/red_block.png
 ```
@@ -264,7 +268,7 @@ info:
 items:
   red_block:
     name: Red Block
-    permission: red_block
+    permission_suffix: red_block
     graphics:
       texture: block/red_block.png
     behaviours:
@@ -275,13 +279,13 @@ items:
 
 ## Getting the block ingame
 
-Run `/iaget red_block` to get the item.
+Run `/iaget myitems:red_block` to get the item.
 
-![](<../../.gitbook/assets/my-first-block_005.png>)
+![Player holding the custom red block in Minecraft](<../../.gitbook/assets/my-first-block_005.png>)
 
-![](<../../.gitbook/assets/my-first-block_003.png>)
+![Red Block item and tooltip in the inventory](<../../.gitbook/assets/my-first-block_003.png>)
 
-![](<../../.gitbook/assets/my-first-block_004.png>)
+![Custom red block placed in the world](<../../.gitbook/assets/my-first-block_004.png>)
 
 ## Download the complete example
 
@@ -295,7 +299,7 @@ info:
 items:
   red_block:
     name: Red Block
-    permission: red_block
+    permission_suffix: red_block
     graphics:
       texture: block/red_block.png
     behaviours:

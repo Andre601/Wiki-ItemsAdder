@@ -14,7 +14,7 @@ This is only compatible with `.java` scripting type.
 {% step %}
 #### Step 1
 
-Follow the [autocompletion setup tutorial](./autocompletion) before continuing.
+Follow the [autocompletion setup tutorial](./autocompletion.md) before continuing.
 {% endstep %}
 
 {% step %}

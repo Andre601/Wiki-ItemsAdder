@@ -63,7 +63,7 @@ items:
            "amount":1,
            "operation":"add_value",
            "slot":"chest"
-        },
+        }
      ],
      "minecraft:repairable":{
         "items":"minecraft:turtle_scute"
@@ -145,7 +145,9 @@ items:
 This is an old way, don't use it.
 {% endhint %}
 
-`nbt: "{display:{Name:'{"text":"TEST", "font": "alt", "italic":false}'}}"`
+In a single-quoted YAML string, write an internal single quote as two single quotes (`''`):
+
+`nbt: '{display:{Name:''{"text":"TEST", "font": "alt", "italic":false}''}}'`
 
 ```yaml
 items:
@@ -158,7 +160,7 @@ items:
     - 'test line from IA config 2'
     - 'test line from IA config 3'
     permission: custom.test
-    nbt: "{display:{Name:'{"text":"TEST", "font": "alt", "italic":false}'}}"
+    nbt: '{display:{Name:''{"text":"TEST", "font": "alt", "italic":false}''}}'
     resource:
       material: DIAMOND_SWORD
       generate: false

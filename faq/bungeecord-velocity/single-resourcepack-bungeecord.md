@@ -4,10 +4,10 @@ description: >-
   different one on each join
 ---
 
-# Single resourcepack Bungeecord
+# Single resource pack on BungeeCord and Velocity
 
-{% hint style="danger" %}
-#### This tutorial is outdated, will require a rewrite.
+{% hint style="warning" %}
+Enable exactly one hosting provider in each server's `resource-pack.hosting` section. The server that builds and hosts the pack uses its selected provider; the other servers use `external-host` with that same pack URL.
 {% endhint %}
 
 ## Network-wide resourcepack
@@ -27,7 +27,7 @@ Install ItemsAdder on all these 3 servers.
 {% hint style="warning" %}
 <mark style="color:red;">**This is very important**</mark>
 
-Make sure to **sync all** the 3 servers `plugins/ItemsAdder/` **configurations folders** each time you make a modification, they must be the same, only the `config.yml` hosting part can change.
+Make sure to synchronize `plugins/ItemsAdder/contents/` on all three servers whenever you change items, textures, models, sounds or other pack content. The content configuration must stay consistent; only the `config.yml` hosting section changes between the source server and the other servers.
 
 This is very crucial for this task or everything won't work.
 {% endhint %}
@@ -42,18 +42,40 @@ Open the `config.yml` of ItemsAdder in the `lobby` server and set up the hosting
 {% endcontent-ref %}
 
 {% hint style="info" %}
-It's advised to use `self-host`, it's the best method.
+For ItemsAdder 4.0.17+, `simple_self_host` is the easiest option because it does not require manual port forwarding. The existing `self-host` method is still useful when you need to control the public address and port yourself.
 {% endhint %}
+
+{% code title="config.yml on the source server" %}
+```yaml
+resource-pack:
+  hosting:
+    no-host:
+      enabled: false
+    simple_self_host:
+      enabled: true
+      server_address: auto
+    lobfile:
+      enabled: false
+    external-host:
+      enabled: false
+      url: ''
+    self-host:
+      enabled: false
+      server-ip: 127.0.0.1
+      pack-port: 8163
+```
+{% endcode %}
+
+Run `/iazip` on this source server to generate and host the resource pack.
 
 After you finished configuring the hosting (follow the linked tutorial carefully) you have to use the `/iainfo` command and get the URL in console, copy it.
 
 For example:
 
-![](../../.gitbook/assets/single-resourcepack-bungeecord_002.png)
+![ItemsAdder iainfo output with the resource-pack download URL highlighted](../../.gitbook/assets/single-resourcepack-bungeecord_002.png)
 
 {% hint style="warning" %}
-You must remove the URL part after `#`, it's not needed.\
-Copy it without that part after `#`.
+Use the direct pack URL. If the displayed text contains a fragment after `#`, do not include that fragment in `external-host.url`.
 {% endhint %}
 
 #### For example using `self-host`:
@@ -68,7 +90,10 @@ resource-pack:
   hosting:
     no-host:
       enabled: false
-    auto-external-host:
+    simple_self_host:
+      enabled: false
+      server_address: auto
+    lobfile:
       enabled: false
     self-host:
       enabled: true
@@ -95,7 +120,10 @@ resource-pack:
   hosting:
     no-host:
       enabled: false
-    auto-external-host:
+    simple_self_host:
+      enabled: false
+      server_address: auto
+    lobfile:
       enabled: false
     self-host:
       enabled: false
@@ -106,6 +134,8 @@ resource-pack:
       url: 'YOUR_PACK_COMPLETE_URL'
 ```
 {% endcode %}
+
+After changing the URL, reload ItemsAdder on the secondary servers. Open the URL in a browser as an additional check: it must directly download the generated `.zip` file.
 
 ### Step 4 (Bungeecord only)
 

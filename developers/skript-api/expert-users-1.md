@@ -20,7 +20,7 @@ I'm not a skript expert and I'm not the developer of **skript** nor **skript-ref
 
 ### Getting item on command
 
-```yaml
+```text
 import:
   dev.lone.itemsadder.api.ItemsAdder
 
@@ -32,7 +32,7 @@ command /iaskript:
 
 ### Check if clicked block is custom block
 
-```yaml
+```text
 import:
   dev.lone.itemsadder.api.ItemsAdder
   org.bukkit.event.player.PlayerInteractEvent
@@ -54,7 +54,7 @@ on PlayerInteractEvent:
 
 ### Custom GUI
 
-```yaml
+```text
 import:
   dev.lone.itemsadder.api.ItemsAdder
   dev.lone.itemsadder.api.FontImages.TexturedInventoryWrapper
@@ -85,7 +85,7 @@ on inventory close:
 
 ### Change HUD value
 
-```yaml
+```text
 import:
   dev.lone.itemsadder.api.FontImages.PlayerQuantityHudWrapper
   dev.lone.itemsadder.api.FontImages.PlayerHudsHolderWrapper
@@ -102,7 +102,7 @@ command /healme:
 
 Item menu
 
-```yaml
+```text
 import:
   dev.lone.itemsadder.api.CustomStack
   dev.lone.itemsadder.api.ItemsAdder

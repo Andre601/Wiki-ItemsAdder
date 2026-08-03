@@ -328,7 +328,7 @@ items:
 ```
 
 {% code title="contents/example/models/furniture/chair.json" %}
-```json
+```jsonc
 {
   "textures": {
     "wool": "block/white_wool",
@@ -336,6 +336,8 @@ items:
     "wood": "block/oak_planks"
   },
   "elements": [
-  //.....
+    // ... model elements ...
+  ]
+}
 ```
 {% endcode %}

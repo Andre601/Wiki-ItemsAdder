@@ -66,13 +66,14 @@ Set `textures_prefix` to `block/red_crop_stage_` to find any texture that starts
 Here you can see a preview of the original parent model, with the `#crop` text that will be replaced by the `model_texture_key`.
 
 {% code title="minecraft:block/crop" %}
-```json
+```jsonc
 {
-    "ambientocclusion": false,
-    "textures": {
-        "particle": "#crop"
-    },
-    .....
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "#crop"
+  }
+  // ... remaining model properties ...
+}
 ```
 {% endcode %}
 
@@ -207,17 +208,6 @@ By default: `BREAK`.
 Alternative to trigger, you can set multiple triggers.
 
 **Example**
-
-```yaml
-crops:
-  red_crop:
-    # ..... previous properties
-    loots:
-      red_crop_1:
-        triggers:
-         - INTERACT
-         - BREAK
-```
 
 ```yaml
 crops:

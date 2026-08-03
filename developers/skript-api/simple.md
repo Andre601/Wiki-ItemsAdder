@@ -4,7 +4,7 @@
 
 ### Command: give custom item
 
-```yaml
+```text
 command /iaskriptgetitem <text> [<number=1>]:
   trigger:
     set {%player%.item} to null
@@ -18,7 +18,7 @@ command /iaskriptgetitem <text> [<number=1>]:
 
 ### Command: is holding custom item
 
-```yaml
+```text
 command /iaskriptiscustomitem:
   trigger:
     if player's tool is a customitem:
@@ -29,7 +29,7 @@ command /iaskriptiscustomitem:
 
 ### FontImage (emojis, GUIs etc.)
 
-```yaml
+```text
 command /emojitest:
 	trigger:
 		set {iconConfirm} to fontimage "twitteremojis:confirm"

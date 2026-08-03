@@ -130,10 +130,10 @@ Use [this website](https://regex101.com/) to test your regex.
     name: display-category-armors
     permission: ia.menu.seecategory.armors
     items:
-      - "iasurvival\:(.*)_helmet"
-      - "iasurvival\:(.*)_chestplate"
-      - "iasurvival\:(.*)_leggings"
-      - "iasurvival\:(.*)_boots"
+      - 'iasurvival\:(.*)_helmet'
+      - 'iasurvival\:(.*)_chestplate'
+      - 'iasurvival\:(.*)_leggings'
+      - 'iasurvival\:(.*)_boots'
 ```
 
 ## Reorder categories

@@ -71,26 +71,28 @@ If the path doesn't exists create all the folders needed.
 If your custom model textures are not showing you have to open your model file and fix the textures path.\
 For example if you had this:
 
-```yaml
-  {
+```json
+{
   "textures": {
     "4": "item/alchemy_candles/white_candle",
     "6": "item/alchemy_candles/candle_top",
     "7": "item/alchemy_candles/red_candle",
     "8": "item/alchemy_candles/fire"
-  },
+  }
+}
 ```
 
 You have to change it to this (`your_namespace` is your namespace folder):
 
-```yaml
+```json
 {
   "textures": {
     "4": "your_namespace:item/alchemy_candles/white_candle",
     "6": "your_namespace:item/alchemy_candles/candle_top",
     "7": "your_namespace:item/alchemy_candles/red_candle",
     "8": "your_namespace:item/alchemy_candles/fire"
-  },
+  }
+}
 ```
 {% endhint %}
 
@@ -161,16 +163,20 @@ If your model is using a custom texture you have to make sure to put your namesp
 For example if you have this 3D model and the texture has this path: `contents/my_items/textures/item/custom_item_1.png`
 
 ```json
- "textures":{
-      "0":"item/custom_item_1"
-   },
+{
+  "textures": {
+    "0": "item/custom_item_1"
+  }
+}
 ```
 
 you have to add the **namespace** in front of it (`myitems` in my example, you have to use your namespace).
 
 ```json
- "textures":{
-      "0":"myitems:item/custom_item_1"
-   },
+{
+  "textures": {
+    "0": "myitems:item/custom_item_1"
+  }
+}
 ```
 {% endhint %}

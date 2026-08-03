@@ -13,11 +13,11 @@ Example of tier config:
 ```yaml
 tiers:
   common:
-    ...
+    # ... existing tier properties ...
     scroll:
       material: iron_ingot
       customModelData: 10012
-    ...
+    # ... remaining tier properties ...
 ```
 Custom model data can also be used for crystals, mystery scrolls and the purchase inventory.
 

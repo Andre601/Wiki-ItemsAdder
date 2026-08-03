@@ -8,7 +8,11 @@ icon: sword
 **Resourcepack hosting**
 
 Remember to **decide** a [**resourcepack hosting**](../plugin-configuration/resourcepack-hosting/) method **before** you **start**.\
-I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
+For ItemsAdder 4.0.17+, `simple_self_host` is usually the easiest option. Other providers are explained in the linked hosting guide.
+{% endhint %}
+
+{% hint style="info" %}
+This tutorial uses the modern `graphics` configuration, available with ItemsAdder 4.0.13+ for Minecraft 1.21.4+ clients. If your players use older clients, keep the legacy `resource` configuration shown below.
 {% endhint %}
 
 ## Creating the swords file config
@@ -28,11 +32,13 @@ info:
   namespace: my_items
 items:
   mysword:
-    display_name: My Sword
-    permission: myitems.mysword
+    name: My Sword
+    material: DIAMOND_SWORD
+    permission_suffix: my_items.mysword
+    graphics:
+      texture: item/mysword
     durability:
-      max_custom_durability: 1324
-  
+      max_durability: 1324
 ```
 {% endcode %}
 
@@ -47,30 +53,52 @@ In this case your **namespace** is `my_items` so you have to put it here:
 
 `contents/my_items/textures/item/mysword.png`
 
-![](../../.gitbook/assets/sword_002.png)
+![mysword.png texture file in the namespace item texture folder](../../.gitbook/assets/sword_002.png)
 
 ### Applying the texture file to your item
 
-Now open `myswords.yml` file again and add the `resource` part as I did.\
-As you can see I set `generate: true` and I set the textures for the item.\
-This tells the plugin to generate the 3D model automatically using your texture.
+Now open `myswords.yml` again and add the `graphics` section. The texture path is relative to `contents/my_items/textures/` and does not require the `.png` extension.
 
 {% code title="contents/my_items/configs/myswords.yml" %}
 ```yaml
 info:
-  namespace: myitems
+  namespace: my_items
 items:
   mysword:
     name: My Sword
-    permission: myitems.mysword
+    material: DIAMOND_SWORD
+    permission_suffix: my_items.mysword
+    graphics:
+      texture: item/mysword
+    durability:
+      max_durability: 1324
+```
+{% endcode %}
+
+<details>
+
+<summary>Legacy resource configuration for Minecraft 1.21.3 and older clients</summary>
+
+The legacy method uses `resource`, sets `generate: true` and includes the `.png` texture path. ItemsAdder then generates the item model from that texture.
+
+```yaml
+info:
+  namespace: my_items
+items:
+  mysword:
+    name: My Sword
+    permission_suffix: my_items.mysword
     resource:
       material: DIAMOND_SWORD
       generate: true
-      texture: item/example_item.png
+      texture: item/mysword.png
     durability:
-      max_custom_durability: 1324
+      max_durability: 1324
 ```
-{% endcode %}
+
+For all legacy `resource` options, see the [resource property reference](../../adding-content/items/item-properties/resource.md).
+
+</details>
 
 ## Final part
 
@@ -81,11 +109,11 @@ To do that you have to:
 * make sure you accepted the resourcepacks
 * use the command `/iazip`
 * (if you're using **external-host** (**DropBox**) scroll down and follow the instructions)
-* get the item using `/iaget mysword`
+* get the item using `/iaget my_items:mysword`
 
-![](<../../.gitbook/assets/sword_003.png>)
+![My Sword item tooltip showing custom durability](<../../.gitbook/assets/sword_003.png>)
 
-![](<../../.gitbook/assets/sword_004.png>)
+![Player holding the custom green sword in Minecraft](<../../.gitbook/assets/sword_004.png>)
 
 ## Resourcepack Hosting Tutorials
 

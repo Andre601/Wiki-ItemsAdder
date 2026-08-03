@@ -19,7 +19,7 @@
   * [Blockbench Errors](faq/common-errors.md)
   * [Bungeecord / Velocity](faq/bungeecord-velocity/README.md)
     * [Remove pack on server change](faq/bungeecord-velocity/remove-pack-on-server-change.md)
-    * [Single resourcepack Bungeecord](faq/bungeecord-velocity/single-resourcepack-bungeecord.md)
+    * [Single resource pack on BungeeCord and Velocity](faq/bungeecord-velocity/single-resourcepack-bungeecord.md)
     * [Single resourcepack Bungeecord different features](faq/bungeecord-velocity/single-resourcepack-multiple-server.md)
   * [Can't change Noteblock note](faq/cant-change-noteblock-note.md)
   * [Can't extract the resourcepack file](faq/cant-extract-the-resourcepack-file.md)

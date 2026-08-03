@@ -6,7 +6,9 @@ Available since ItemsAdder 4.0.11.
 Requires Minecraft 1.21.4+ clients. Server version is not important.
 {% endhint %}
 
-## Example model `obsidian_trident`
+## Example item: `obsidian_trident`
+
+The `normal` model is used while the trident is held normally. The `throwing` model is used while the player is charging a throw. Model paths are relative to `contents/tridents/models/` and do not include the `.json` extension.
 
 ```yaml
 info:
@@ -22,72 +24,78 @@ items:
         throwing: item/obsidian_trident_throwing
 ```
 
-### Creating the trident
+### Create the normal model
 
-Create a json file in `contents\tridents\models\item\obsidian_trident.json`\
-Or create a model inside of blockbench like usual:
-<figure><img src="../../.gitbook/assets/tridents_005.png" alt=""><figcaption></figcaption></figure>
+Create `contents/tridents/models/item/obsidian_trident.json`, either manually or with Blockbench.
 
-#### Set the item held locations
+<figure><img src="../../.gitbook/assets/tridents_005.png" alt="Obsidian trident model open in Blockbench"><figcaption>The example trident model in Blockbench.</figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/tridents_004.png" alt=""><figcaption></figcaption></figure>
+#### Set the held-item transforms
 
-<figure><img src="../../.gitbook/assets/tridents_002.png" alt=""><figcaption></figcaption></figure>
+Use Blockbench's **Display** tab to position the trident in third-person views.
 
-#### Set the hit model location
+<figure><img src="../../.gitbook/assets/tridents_004.png" alt="Blockbench third-person display transform for an obsidian trident"><figcaption>Third-person transform preview.</figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/tridents_003.png" alt=""><figcaption></figcaption></figure>
+Then configure its first-person views.
 
-Here is the complete display:
+<figure><img src="../../.gitbook/assets/tridents_002.png" alt="Blockbench first-person display transform for an obsidian trident"><figcaption>First-person transform preview.</figcaption></figure>
+
+#### Set the head transform
+
+The head transform controls how the model is positioned when equipped in the helmet slot.
+
+<figure><img src="../../.gitbook/assets/tridents_003.png" alt="Blockbench head display transform for an obsidian trident"><figcaption>Head transform and reference model selected in Blockbench.</figcaption></figure>
+
+The complete `display` section used by the normal model is:
 
 ```json
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [0, 60, 0],
-			"translation": [0, -10, 1]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [0, 60, 0],
-			"translation": [0, -8, 1]
-		},
-		"firstperson_righthand": {
-			"rotation": [0, 90, -25],
-			"translation": [5.05, -10.7, 5]
-		},
-		"firstperson_lefthand": {
-			"rotation": [0, 90, -25],
-			"translation": [6.25, -11, 3.5]
-		},
-		"head": {
-			"rotation": [90, 90, 0],
-			"translation": [0, 0, -20]
-		}
-	}
-```
-
-### Create the throwing model (`_throwing.json` model)
-
-This is the model shown when you are holding the right click button.\
-Create a json file in `contents\tridents\models\item\obsidian_trident_throwing.json`
-
-It's the same model as before, the only difference is the rotation when hold in hand.
-
-You can create a totally different model using Blockbench or simply create a copy of `obsidian_trident.json` and change the rotation like that:
-
-```
 {
-	"parent": "test:item/obsidian_trident",
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [0, 90, -180],
-			"translation": [0, 11, 1]
-		}
-	}
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, 60, 0],
+      "translation": [0, -10, 1]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 60, 0],
+      "translation": [0, -8, 1]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, 90, -25],
+      "translation": [5.05, -10.7, 5]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 90, -25],
+      "translation": [6.25, -11, 3.5]
+    },
+    "head": {
+      "rotation": [90, 90, 0],
+      "translation": [0, 0, -20]
+    }
+  }
 }
 ```
 
-NOTE: Minecraft automatically applies some hardcoded rotations and translations to the firstperson view of the throwing model.\
-You should not edit the firstperson view, only edit the thirdperson. The game will apply some rotations and translations accordingly.
+### Create the throwing model
+
+This model is shown while the player holds the use button to charge a throw. Create `contents/tridents/models/item/obsidian_trident_throwing.json`.
+
+It can be a completely different model. For the same geometry with a different held rotation, make it inherit the normal model and override only the required display transform:
+
+```json
+{
+  "parent": "tridents:item/obsidian_trident",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, 90, -180],
+      "translation": [0, 11, 1]
+    }
+  }
+}
+```
+
+{% hint style="info" %}
+Minecraft applies hardcoded rotations and translations to the first-person view of a trident while it is being thrown. Configure the throwing model's third-person transform; do not compensate for it by changing the first-person transform.
+{% endhint %}
 
 ## Inventory 2D icon
 
@@ -102,7 +110,7 @@ You can set a 2D icon in inventory.
 {% embed url="https://youtu.be/XvAIg-Lw2xs" %}
 
 ## Example pack
+
 {% content-ref url="https://github.com/bruhhhwarrior/tridents/releases" %}
 [Example pack](https://github.com/bruhhhwarrior/tridents/releases)
 {% endcontent-ref %}
-
