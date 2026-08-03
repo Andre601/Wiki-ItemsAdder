@@ -196,6 +196,7 @@
   * [Elytra](adding-content/items/elytra.md)
   * [Tridents](adding-content/items/tridents.md)
   * [Bundle](adding-content/items/bundle.md)
+  * [Spear](adding-content/items/spear.md)
   * [Fuel](adding-content/items/fuel.md)
   * [Animated 3D Items](adding-content/items/animated-3d-items.md)
   * [Writable Book](adding-content/items/writable-book.md)
